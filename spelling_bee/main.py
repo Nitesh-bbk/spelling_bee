@@ -8,7 +8,7 @@ words_file_path = None
 def generate_word_list(key_letter: str, supporting_letters: str):
     global words_file_path
     if words_file_path is None:
-        words_file_path = r'data/words.txt'
+        words_file_path = r'./spelling_bee/data/words.txt'
 
     key_letter = key_letter.lower()
     supporting_letters = supporting_letters.lower()
